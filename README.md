@@ -1,2 +1,2 @@
-# 2do-modelo
+# 2do-modelo de portfolio Frontend
 modelo alternativo del portfolio
