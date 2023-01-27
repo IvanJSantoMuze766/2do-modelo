@@ -3,8 +3,9 @@
 /* En ID va con "#" adelante*/
 
 body{
-    background-color: cornflowerblue;
-    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    color: rgb(39, 39, 39);
 }
 #redes{
     text-align: center;
@@ -15,21 +16,38 @@ ul li{
 }
 .logoArgentinaPrograma{
     width: 120px;
-}
-.imagendeperfil{
-    border-radius:100%;
-    width: 250px;
-    height: 315px;
-    margin: 0.5rem 0.5rem 0rem 0.5rem;
-    padding: 0rem 0rem 0rem 0rem;
-    border-style:solid ;
-    
+    filter: invert(1);
 }
 .nombredeperfil{
     font-size: 2rem;
     padding: 2rem 0.5rem 1rem 0.5rem;
 }
-.fotodeperfil{
-    justify-items: end;
-    display: flex;
+section.banner{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.2), 
+        rgba(0,0,0,0.3)
+        ),
+         url(../img/banner.jpg);
+    width: fluid;
+    height: 15rem;
+    position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -msn-background-size: cover;
+    background-repeat: no-repeat;
+}
+h3.intro{
+    padding-top: 10%;
+    font-size: 1.15rem;
+}
+h1.intro{
+    font-size: 2rem;
+}
+h2.intro{
+    font-size: 1.25rem;
+}
+#sobremi{
+    background-color: rgb(244,224,186);
 }
